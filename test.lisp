@@ -1,0 +1,6 @@
+(cond ((eq? 'foo (car '(foo bar))) 'here) ((eq? 1 2) 'there) (#t 'nope))
+(cdr '(= 1 2))
+(cond ((eq? 'foo (car '(foo bar))) 'here) ((eq? 1 2) 'there) (#t 'nope))
+(+ 3 4) (+ 1 2) (cdr '(= 1 2))
+(cond ((eq? 'foo (car '(foo bar))) 'here) ((eq? 1 2) 'there) (#t 'nope))
+(+ 1 a 3)
